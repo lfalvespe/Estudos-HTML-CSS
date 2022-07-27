@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(251, 249, 249);
+    margin: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+    padding: 20px;
+    background-color: lightsteelblue;
+}
+
+header #titulo {
+    font-size: 3em;
+    color: rgb(3, 96, 96);
+    text-align: center;
+}
+
+div {
+    height: 410px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    padding: 30px 40px;
+}
+
+#fundo1 {
+    background-image: url(./imagens/cologne_rhine_river_in_western_germany_hd_travel-1920x1080.jpg);
+}
+
+#fundo2 {
+    background-image: url(./imagens/eiserner_steg_bridge_germany_frankfurt_hd_travel-1920x1080.jpg);
+}
+
+#fundo3 {
+    background-image: url(./imagens/glucksburg_castle_flensburg_fjord_schleswig_holstein_sonderburg_glucksburg_4k_hd_travel-1920x1080.jpg);
+}
+
+#fundo4 {
+    background-image: url(./imagens/netherlands_holland_dokkum_windmill_hd_travel-1920x1080.jpg);
+}
+
+div h1{
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+
+p {
+    font-size:100%;
+    margin: auto;
+    text-align: center;
+    min-width: 90%;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+.texto {
+    background-color: rgb(225, 236, 225);
+}
+
+.texto p {
+    text-align: justify;
+    margin:60px 20px;
+}
+
+.imagem {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;   
+}
+
+.imagem p {
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.364);
+    margin:50px 20px;
+}
+
+.imagem h1 {
+    color: rgb(253, 4, 232);
+    text-shadow: 1px 1px 4px rgba(252, 255, 255, 0.397);
+}
+
+footer {
+    margin-top: -20px;
+    padding: 20px;
+    background-color: lightslategray;
+}
+
+footer p {
+    font-family:'Courier New', Courier, monospace;
+}
