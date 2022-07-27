@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: grey;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	background-color: black;
+	color: aliceblue;
+}
+
+#header {
+	margin: -20px -20px 0px -20px;
+}
+
+.flex-pai {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-color: lightskyblue;
+	height: 88vh;
+	padding: 20px;
+}
+
+.flex-pai div {
+	height: 100px;
+	flex-grow: 1;
+	background-color: lightsalmon;
+	color: brown;
+	font-weight: bolder;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#footer {
+	margin: 0px -20px -100px -20px;
+}
+
+
+
+
