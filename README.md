@@ -11,7 +11,7 @@ Repositório de estudos de HTML e CSS
   <li>
     HTML semântico
     <ul>
-      <li><a href="estrutura-semantica.pdf">Estrutura básica</li>
+      <li><a href="estrutura-semantica.png">Estrutura básica</li>
     </ul>
   </li>
   
