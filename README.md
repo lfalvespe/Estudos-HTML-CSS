@@ -9,7 +9,7 @@ Repositório de estudos de HTML e CSS
 <ol>
 
   <li>
-    <a href="imagens/estrutura-semantica.png">HTML semântico</a>
+    <a href="Estrutura-Semantica.pdf">HTML semântico</a>
     <ul>
       <li>Estrutura básica</li>
       <li>Tags Semânticas</li>
