@@ -16,13 +16,14 @@ Repositório de estudos de HTML e CSS
     </ul>
   </li>
   
-  
   <li>
-  <a href="/efeito parallax/index.html">Efeito Parallax:</a>
+    <a href="/flexbox/index.html">Flexbox:</a>
   </li>
   
   <li>
-  <a href="/flexbox/index.html">Flexbox:</a>
+    <a href="/efeito parallax/index.html">Efeito Parallax:</a>
   </li>
+  
+
   
 </ol>
