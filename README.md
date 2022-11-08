@@ -19,7 +19,7 @@
   <li>
     <a href="position/caixa-dentro-de-caixa.pdf" target="_blank">Position: absolute, relative</a>
     <ul>
-      <li>Centralizando uma caixa dentro da outra</li>
+      <li>Centralizando uma DIV</li>
     </ul>
   </li>
   
