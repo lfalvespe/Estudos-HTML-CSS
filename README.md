@@ -2,7 +2,7 @@
 <h1>HTML 5 / CSS 3</h1>
 
 
-<p> Repositório de estudos de HTML e CSS (Arquivos no formato PDF)</p>
+<p> Repositório de estudos de HTML e CSS</p>
 <hr>
 
 
