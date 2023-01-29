@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        caption {
+            font-weight: bold;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.nome {
+            background-color: yellowgreen;
+        }
+
+        col.cgrupo {
+            background-color: lightcoral;
+        }
+
+        col.profissao {
+            background-color: cornflowerblue;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="cgrupo" span="2">
+            <col class="profissao">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</td>
+            <th scope="col">Sexo</td>
+            <th scope="col">Idade</td>
+            <th scope="col">Profissão</th>
+            
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>José Luiz</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Antônia Martins</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Secretária</td>
+        </tr>
+
+        <tr>
+            <td>Miguel Duarte</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Osvaldo Amorim</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Mecânico</td>
+        </tr>
+
+        <tr>
+            <td>Yolanda Meireles</td>
+            <td>F</td>
+            <td>54</td>
+            <td>Escritora</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

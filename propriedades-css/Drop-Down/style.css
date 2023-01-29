@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	background-color: black;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a, .btndrop {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+}
+
+li a:hover, .menudrop:hover .btndrop {
+	background-color: gold;
+	color: black;
+}
+
+li.menudrop {
+	display: inline-block;
+}
+
+.conteudo-drop {
+	display: none;
+	position: absolute;
+	width: 150px;
+	
+}
+
+.conteudo-drop a {
+	display: block;
+	text-align: left;
+	border: 1px solid lightgray;
+	color: black;
+}
+
+.menudrop:hover .conteudo-drop{
+	display: block;
+}

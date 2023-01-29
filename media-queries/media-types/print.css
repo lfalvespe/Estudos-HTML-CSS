@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Esse arquivo foi impresso do site www.github.io/lfalves'
+}

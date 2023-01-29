@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quam iusto consequatur est incidunt debitis quis omnis dignissimos asperiores nostrum id voluptatem perspiciatis, excepturi inventore eaque deserunt illo cupiditate voluptate.
+            </p>
+    
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae amet officia maxime cum aspernatur laboriosam fugit, reiciendis labore numquam voluptas ratione dicta libero similique? Animi facilis non dolores atque?
+            </p>
+    
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab veritatis ad porro eaque recusandae! Perspiciatis, rem quo, facilis laborum quam consequatur id debitis dolores accusantium porro voluptatem enim? Quidem, natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odit, necessitatibus tenetur reiciendis architecto vel voluptas mollitia hic dolores sint officia, doloribus unde. Suscipit sed quia id sit omnis cupiditate.
+            </p>
+    
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            items = document.getElementById('items')
+            
+            if( items.style.display == 'none'){
+                items.style.display = 'block'
+            } else {
+                items.style.display = 'none'
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>

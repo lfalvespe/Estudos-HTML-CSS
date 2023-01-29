@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Overflow</title>
+
+	<style>
+
+		ul {
+			background-color: black;
+			padding: 20px;
+		}
+
+		li {
+			display: inline-block;
+		}
+
+		li.login {
+			float: right;
+		}
+
+		li.login a:hover {
+			background-color: orange;
+		}
+
+		a {
+			color: aliceblue;
+			text-decoration: none;
+			padding: 20px;
+		}
+
+		a:hover {
+			background-color: aliceblue;
+			color: black;
+		}
+
+		.container {
+			border: 1px solid blue;
+			overflow: auto;
+		}
+
+		img {
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+
+		.explicacao {
+			text-align: center;
+			background-color: lightsalmon;
+
+		}
+
+		
+
+	</style>
+
+</head>
+<body>
+
+	<ul>
+		<li><a href="#">Link</a></li>
+		<li><a href="#">Link</a></li>
+		<li><a href="#">Link</a></li>
+		<li class="login"><a href="#">Login</a></li>
+	</ul>
+
+	<div class="container">
+		<img src="imagem.png" width = 200px alt="">
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium maiores molestiae voluptatem ratione! In sapiente nemo voluptate odit, inventore voluptatibus iste aut dolores nulla soluta? Quod nihil veniam rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure accusamus minus itaque consequatur reprehenderit magni, in quia ratione, obcaecati perferendis beatae quis enim labore repudiandae cupiditate dolorem magnam nisi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure accusamus amet tempora fugit, aut quisquam, accusantium consequuntur voluptatum officiis quos explicabo, placeat cum animi aliquam deserunt eveniet nulla saepe mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod deleniti sint laboriosam eius cupiditate totam quo quos optio. Voluptatibus quod culpa odit vel voluptatum minima laudantium et tempora aut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur earum placeat dolorem laboriosam animi. Nesciunt id laboriosam expedita in porro debitis hic suscipit. Ipsa consequatur nisi possimus consectetur ea natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A perspiciatis nobis in modi doloribus optio nisi quisquam expedita distinctio, minima quidem, doloremque mollitia hic dolores eveniet, corrupti voluptas eos maxime? 
+		</p>
+
+		<h2 style="clear:both;">Titulo 2</h2>
+		<p>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem commodi doloribus assumenda numquam sapiente quisquam voluptatem architecto voluptatum? Dolorum odit fugit voluptatum dignissimos consequatur ex ad! Optio commodi beatae mollitia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sed, dicta nihil ipsam exercitationem hic ratione laborum possimus quo minima dolores doloremque quos nisi, sapiente itaque architecto aperiam, natus impedit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit qui, debitis excepturi odio corrupti est autem nam officiis minus, aliquid a neque distinctio obcaecati molestiae ab! Magnam, voluptatum repellat.
+		</p>
+
+	</div>
+
+
+	<br>
+
+	<div class="explicacao">
+
+	<h1>Explicação</h1>
+
+	<h2>Menu da página:</h2>
+	<p> A propriedade float deslocou o último link par direita</p>
+
+	<h2>Imagem no container:</h2>
+	<p>A propriedade float fez a imagem flutuar à esquerda liberando o espaço da direita para o texto do parágrafo oucpar esse espaço. <br><br>
+
+	<strong>OBS. 1:</strong> Foi utilizada a propriedade overflow no container para que ele se adequasse ao conteúdo. <br><br>
+
+	<strong>OBS. 2:</strong> A propriedade clear com valor <e>both</e> foi utilizada de forma inline no título H2 para quebrar a flutuação da imagem e descer para o fluxo normal dentro container.
+
+	</p>
+
+</div>
+
+<br>
+
+
+	
+</body>
+</html>
