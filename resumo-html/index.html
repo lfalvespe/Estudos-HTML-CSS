@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML language</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <h1>HTML - Hypertext Markup Language</h1>
+    <hr>
+
+    <h2><ins>Hierarquia de títulos</ins>:</h2>
+
+    <h1>Eu sou um texto h1</h1>
+    <h2>Eu sou um texto h2</h2>
+    <h3>Eu sou um texto h3</h3>
+    <h4>Eu sou um texto h4</h4>
+    <h5>Eu sou um texto h5</h5>
+    <h6>Eu sou um texto h6</h6>
+
+    <hr>
+
+    <h2><ins>Parágrafos</ins>:</h2>
+
+    <p><em>Lorem Ipsum é um texto aleatório gerado para preencher espaços vazios. Muito utilizado em estudos de
+        progração, design, etc.</em></p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur blanditiis molestias voluptatem neque
+      repellendus velit et ipsum, iusto doloremque perferendis ex ab magnam. Consequatur provident ut inventore, sint
+      incidunt dolorem.
+    </p>
+
+    <hr>
+
+    <h2><ins>Links</ins>:</h2>
+
+    <a href="https://www.mercadolivre.com.br/" target="_blank">Mercado Livre</a> <br>
+    <a href="https://www.uol.com.br/" target="_blank">UOL</a>
+    <br>
+    <a href="https://www.cnnbrasil.com.br//" target="_blank">CNN</a>
+
+    <hr>
+
+    <h2><ins>Imagens</ins></h2>
+    <img
+      src="https://images.unsplash.com/photo-1709374601273-57d0a44c9437?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1NHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+
+    <hr>
+
+    <h2><ins>Vídeos</ins>:</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ksmm5yfcJDY?si=p2ED2V2eEH8PE2Ai"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+    <hr>
+
+    <h2><ins>Formatação de textos</ins>:</h2>
+
+    <strong>Negrito</strong> <br><br>
+    <em>Itálico</em> <br><br>
+    <mark>Texto marcado</mark> <br><br>
+    <del>Texto deletado</del> <br><br>
+    <ins>Texto inserido </ins> (underline) <br><br>
+    Exepmplo de <sup>Texto sobrescrito</sup> <br><br>
+    Exemplo de <sub>Texto subescrito</sub> <br><br>
+    <q>Citações simples</q> <br><br>
+    <blockquote>citações em bloco <br>citações em bloco <br> citações em bloco</blockquote> <br><br>
+    <strong>Abreviação</strong>: Passe o mouse em cima para ver o significado <abbr
+      title="Carteira nacional de habilitação"> <br><br>
+
+      <strong>CNH</strong></abbr> <br><br>
+
+    <strong>Orientação do texto: </strong>
+    <bdo dir="rtl">Texto exibido da direita para esquerda</bdo> <br><br>
+
+    <strong>Trechos de código:</strong> As letras ficam mono-espaçadas para facilitar a leitura.
+
+    <pre><code>
+        const n = 109;
+
+        if(n%2 === 0) {
+          console.log(`${n} é par`)
+        } else {
+          console.log(`${n} é ímpar`)
+        }
+
+      </code></pre>
+
+    <hr>
+
+    <h2><ins>Listas</ins>:</h2>
+
+    <h3>Listas Ordenadas</h3>
+
+    <ol>
+      <li>Feijão</li>
+      <li>Arroz</li>
+      <li>Farinha</li>
+      <li>Açúcar</li>
+      <li>Café</li>
+    </ol>
+
+    <h3>Listas não ordenadas</h3>
+
+    <ul>
+      <li>Monitor</li>
+      <li>Teclado</li>
+      <li>Mouse</li>
+      <li>Caixa de som</li>
+
+    </ul>
+
+    <h3>Listas de definições</h3>
+
+    <dl>
+      <dt><strong>HTML</strong></dt>
+      <dd>Linguagem de marcação de hipertexto</dd>
+      <dt><strong>CSS</strong></dt>
+      <dd>Linguagem de marcação de estilos em cascata </dd>
+      <dt><strong>Javascript</strong></dt>
+      <dd>Linguagem de programação para adicionar interatividade</dd>
+    </dl>
+
+    <hr>
+
+    <h3><ins>Tabelas:</ins></h3> <br><br>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+<br />
+
+<hr>
+
+<h2><ins>Formulários:</ins></h2>
+
+<form method="get" action="">
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <p><label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    </p>
+    <p><label for="sobrenome">Sobrenome: </label>
+      <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+    </p>
+    <p><label for="data">Data de Nascimento: </label>
+      <input type="date" name="data" id="data">
+    </p>
+
+    <label for="filhos">Nº de filhos</label>
+    <input type="number" name="filhos" id="filhos" min="0" max="10">
+
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Gênero</legend>
+    <input type="radio" id="masc" name="sexo" checked>
+    <label for="masc">Masculino</label>
+    <input type="radio" id="fem" name="sexo">
+    <label for="fem">Feminino</label>
+    <input type="radio" id="outro" name="sexo">
+    <label for="outro">Outros</label>
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Endereço</legend>
+    <p>
+      <label for="end">Logradouro: </label>
+      <input type="text" id="log" name="log" placeholder="Rua, Av, Trav, etc.">
+    </p>
+
+
+    <p>
+      <label for="numero">Número: </label>
+      <input type="number" id="num" name="num" min="0" max="9999">
+    </p>
+
+
+    <p>
+      <label for="cidade">Cidade: </label>
+      <input type="text" id="cidade" name="cidade" placeholder="Sua Cidade" maxlength="40" size="20" list="cidades">
+      <datalist id="cidades">
+        <option value="Bezerros"></option>
+        <option value="Camaragibe"></option>
+        <option value="Campina Grande"></option>
+        <option value="Caruaru"></option>
+        <option value="Janga"></option>
+        <option value="Olinda"></option>
+
+        <option value="Recife"></option>
+        <option value="João Pessoa"></option>
+      </datalist>
+    </p>
+
+
+    <p>
+      <label for="estado">Estado: </label>
+      <select name="estado" id="estado">
+
+        <optgroup label="Região Nordeste">
+          <option value="PE">Pernambuco</option>
+          <option value="PA">Paraíba</option>
+          <option value="CE">Ceará</option>
+          <option value="BA">Bahia</option>
+        </optgroup>
+
+
+        <optgroup label="Região Sul">
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="MG">Minas Gerais</option>
+        </optgroup>
+
+
+        <optgroup label="Região Sudeste">
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </optgroup>
+
+
+      </select>
+    </p>
+
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Email</legend>
+    <input type="email" id="email" name="email" placeholder="Seu email aqui" required>
+  </fieldset>
+
+  <fieldset>
+    <legend>Escolha um animal de estimação</legend>
+    <input type="checkbox" name="cao" id="cao">
+    <label for="cao">Cão</label>
+    <input type="checkbox" name="gato" id="gato">
+    <label for="gato">Gato</label>
+    <input type="checkbox" id="passaro" name="passaro">
+    <label for="passaro">Passarinho</label>
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Cursos</legend>
+    <select name="cursos" id="cursos">
+      <option value="" selected disabled>Escolha um curso</option>
+      <option value="Algoritmos">Algoritmos</option>
+      <option value="C#">C#</option>
+      <option value="Java">Java</option>
+      <option value="Javascript">Javascript</option>
+      <option value="mysql">MySQL</option>
+      <option value="php">PHP</option>
+      <option value="python">Python</option>
+    </select>
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Mensagem</legend>
+
+    <p>
+      <label for="urgencia">Urgência: </label>
+      Mín<input type="range" id="urg" name="urg" min="0" max="10">Máx
+    </p>
+
+
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Digite uma mensagem"></textarea>
+  </fieldset>
+
+
+  <p><input type="submit" value="Enviar"></p>
+  <p><input type="reset" value="limpar"></p>
+
+</form>
+
+<hr>
+
+<h3>Feito por Fernando Alves</h3>
+Email: <a href="mailto: lfalvespe@gmail.com">lfalvespe@gmail.com</a>
+<br>
+Github: <a href="github: https://github.com/lfalvespe" target="_blank">github.com/lfalvespe</a>
+<br>
+&copy; 2024
+<br><br>
+
+</div>
+</body>
+</html>
